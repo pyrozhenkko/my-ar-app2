@@ -52,7 +52,7 @@ let model = null;
 let mixer = null;
 
 // URL to city GLTF model — placed in public/models/
-const MODEL_URL = '/models/rauma_town_hall.glb';
+const MODEL_URL = 'models/rauma_town_hall.glb';
 
 loader.load(
   MODEL_URL,
