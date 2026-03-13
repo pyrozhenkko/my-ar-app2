@@ -1,0 +1,481 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "city-generator"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "CityScene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Ground",
+      "mesh": 0
+    },
+    {
+      "name": "Office Tower",
+      "mesh": 1,
+      "translation": [
+        -2,
+        2,
+        -2
+      ],
+      "scale": [
+        1.2,
+        4,
+        1.2
+      ]
+    },
+    {
+      "name": "Residential",
+      "mesh": 2,
+      "translation": [
+        1,
+        1.25,
+        -1.5
+      ],
+      "scale": [
+        1.5,
+        2.5,
+        1.5
+      ]
+    },
+    {
+      "name": "Shop",
+      "mesh": 3,
+      "translation": [
+        2.5,
+        0.75,
+        1
+      ],
+      "scale": [
+        1,
+        1.5,
+        1
+      ]
+    },
+    {
+      "name": "Warehouse",
+      "mesh": 4,
+      "translation": [
+        -1,
+        0.6,
+        2
+      ],
+      "scale": [
+        2,
+        1.2,
+        1.5
+      ]
+    },
+    {
+      "name": "Apartment",
+      "mesh": 5,
+      "translation": [
+        0,
+        1.75,
+        0.5
+      ],
+      "scale": [
+        0.8,
+        3.5,
+        0.8
+      ]
+    },
+    {
+      "name": "Store",
+      "mesh": 6,
+      "translation": [
+        -3,
+        1,
+        1
+      ],
+      "scale": [
+        1.3,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "Gallery",
+      "mesh": 7,
+      "translation": [
+        3,
+        0.9,
+        -0.5
+      ],
+      "scale": [
+        1,
+        1.8,
+        1.2
+      ]
+    },
+    {
+      "name": "Hospital",
+      "mesh": 8,
+      "translation": [
+        -0.5,
+        1.5,
+        -3
+      ],
+      "scale": [
+        1.6,
+        3,
+        1.4
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Ground",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Office Tower",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Residential",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "Shop",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "name": "Warehouse",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 4
+        }
+      ]
+    },
+    {
+      "name": "Apartment",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 5
+        }
+      ]
+    },
+    {
+      "name": "Store",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 6
+        }
+      ]
+    },
+    {
+      "name": "Gallery",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 7
+        }
+      ]
+    },
+    {
+      "name": "Hospital",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 8
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        5,
+        0,
+        5
+      ],
+      "min": [
+        -5,
+        0,
+        -5
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 648,
+      "byteLength": 48,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 696,
+      "byteLength": 48,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 744,
+      "byteLength": 12,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "city.bin",
+      "byteLength": 756
+    }
+  ],
+  "materials": [
+    {
+      "name": "Ground",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.25,
+          0.25,
+          0.25,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9
+      }
+    },
+    {
+      "name": "Office Tower",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.27,
+          0.53,
+          0.67,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Residential",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.53,
+          0.27,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Shop",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.67,
+          0.27,
+          0.27,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Warehouse",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4,
+          0.4,
+          0.53,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Apartment",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.53,
+          0.67,
+          0.4,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Store",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.73,
+          0.47,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Gallery",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.56,
+          0.36,
+          0.6,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "Hospital",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3,
+          0.6,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    }
+  ]
+}
